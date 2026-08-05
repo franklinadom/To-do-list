@@ -5,8 +5,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <p>Hello</p>
+    <div className='container1'>
+      <p className='text'>Enter task</p>
     </div>
   )
 }
