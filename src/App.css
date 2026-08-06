@@ -46,7 +46,7 @@
 }
 
 .container2{
-  background-color: blueviolet;
+  background-color: rgb(144, 9, 151);
   margin-top: 15px;
   height: 70px;
   width: 6cm;
@@ -63,7 +63,6 @@
   border: none;
   cursor: pointer;
   color: black;
-  
   
 }
 
