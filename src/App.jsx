@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <div className='Main'>
     <div className='container'>
       <div className='sub-container1'>
         <p className='text'>Enter task</p>
@@ -24,6 +25,7 @@ function App() {
         <p className='text3'>Build my first react proj</p>
         <button className='delete-btn'><FaTrash/></button>
       </div>
+    </div>
     </div>
     </>
   )

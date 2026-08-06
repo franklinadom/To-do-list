@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.Main{
+  background-color: rgb(215, 199, 199);
+}
+
 .container{
   display: flex;
   gap: 40px;
@@ -67,6 +71,6 @@
 }
 
 .text3{
-  color: black;
+  color: rgb(202, 199, 199);
   
 }
