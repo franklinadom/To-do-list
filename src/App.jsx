@@ -18,6 +18,7 @@ function App() {
     <div className='body'>
       <div className='container2'>
         <p className='text3'>Learn React</p>
+        <button className='delete-btn'><FaTrash/></button>
       </div>
       <div className='container2'>
         <p className='text3'>Build my first react proj</p>
