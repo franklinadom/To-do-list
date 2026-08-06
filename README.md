@@ -1,16 +1,64 @@
-# React + Vite
+# To-do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, minimal To-do List web app built with React and Vite — focused on fast development, hot module replacement (HMR), and a clean dev setup.
 
-Currently, two official plugins are available:
+## Features
+- Add, edit, and remove to-do items
+- Toggle items as complete/incomplete
+- Persistent state (localStorage)
+- Responsive UI
+- ESLint-enabled code style (optional)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech stack
+- React
+- Vite
+- JavaScript (or TypeScript if you prefer)
+- Optional: ESLint, Prettier
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repo
+   git clone https://github.com/franklinadom/To-do-list.git
+2. Install dependencies
+   cd To-do-list
+   npm install
+   or
+   yarn
+3. Run the dev server
+   npm run dev
+   or
+   yarn dev
 
-## Expanding the ESLint configuration
+The app will be available at http://localhost:5173 (default Vite port).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Available scripts
+- npm run dev — start development server with HMR
+- npm run build — create a production build
+- npm run preview — locally preview the production build
+- npm run lint — run ESLint (if configured)
+
+## Project structure (suggested)
+- src/
+  - components/ — React components (TodoList, TodoItem, AddTodo, etc.)
+  - hooks/ — custom hooks (e.g., useLocalStorage)
+  - styles/ — CSS or utility classes
+  - main.jsx — app entry
+- public/ — static assets
+
+## Persistence
+This app uses localStorage to keep the to-do list between browser sessions. You can swap this for a backend API later.
+
+## Deployment
+Build the app and deploy the `dist/` output to any static host (Netlify, Vercel, GitHub Pages, etc.):
+- npm run build
+- Deploy `dist/`
+
+## Contributing
+Contributions are welcome. Open issues or pull requests with small, focused changes. Please follow consistent linting and formatting rules if present.
+
+## License
+Choose a license (e.g., MIT). Example:
+MIT © [Your Name]
+
+## Author
+franklinadom — https://github.com/franklinadom
